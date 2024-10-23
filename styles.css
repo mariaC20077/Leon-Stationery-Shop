@@ -1,0 +1,19 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/tópicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: rgb(250, 232, 209);
+    --branco: #fffcfc;
+    --azul: #051e22;
+    --azul-degrade: linear-gradient(97.54deg, #340052 35.49%, #481285 165.37%);
+    --amarelo: #d8c59c;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
